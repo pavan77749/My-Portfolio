@@ -1,0 +1,56 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/frontend.png",
+      "title": "Front-End",
+      "description": "As a frontend developer, I excel in HTML, CSS, and JavaScript, specializing in frameworks like React. With an eye for design and UX, I create engaging, responsive interfaces that prioritize user experience."
+    },
+    {
+      "id": "2",
+      "src": "./img/backend.png",
+      "title": "Back-End",
+      "description": "As a backend developer, I specialize in server-side technologies like Node.js, MongoDB, or Python. I build robust APIs, handle data storage, and ensure the functionality and security of web applications."
+    },
+    {
+      "id": "3",
+      "src": "./img/designer.png",
+      "title": "UI & UX Design",
+      "description": "As a UI/UX designer, I combine creativity with user-centric design principles to craft visually stunning and intuitive interfaces. Proficient in tool like Figma, I prioritize user experience to create engaging digital products."
+    },
+    {
+      "id": "4",
+      "src": "./img/devtools.png",
+      "title": " Development Tools",
+      "description": "As a developer proficient in tools like Git and GitHub, I effectively manage version control and collaborate with team members. Utilizing features such as branching, merging, and pull requests, I ensure smooth and organized project development."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-img-1.png",
+      "title": "BlogWebsite",
+      "description": "A BlogWebsite made by Angular Framework and Bootstrap packages.... ",
+      "link": "View In Github",
+      "url":"https://github.com/pavan77749/BlogWebsite"
+    },
+    {
+      "id": "2",
+      "src": "https://imgs.search.brave.com/8KZlQBKuj-21vJZyGC_8wGSxLiAOp8-rT93QWauW52w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cHVzaGVuZ2FnZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDIvV29yZFBy/ZXNzLUNvbWluZy1T/b29uLVBhZ2UtUGx1/Z2lucy5wbmc",
+      "title": "Coming Soon",
+      "description": "",
+      "link": "View In Github",
+      "url":""
+    },
+    {
+      "id": "3",
+      "src": "https://imgs.search.brave.com/8KZlQBKuj-21vJZyGC_8wGSxLiAOp8-rT93QWauW52w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cHVzaGVuZ2FnZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDIvV29yZFBy/ZXNzLUNvbWluZy1T/b29uLVBhZ2UtUGx1/Z2lucy5wbmc",
+      "title": "Coming Soon",
+      "description": "",
+      "link": "View In Github",
+      "url":" "
+    }
+
+  ]
+ 
+}
