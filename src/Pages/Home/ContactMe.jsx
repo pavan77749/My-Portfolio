@@ -10,6 +10,7 @@ export default function ContactMe() {
   });
 
   const [phoneNumberError, setPhoneNumberError] = useState("");
+  const [isSubmitted, setIsSubmitted] = useState(false); // State to track form submission
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -65,6 +66,7 @@ export default function ContactMe() {
         phoneNumber: "",
         message: ""
       });
+      setIsSubmitted(true); // Set form submission status to true
     }
   };
 
@@ -77,8 +79,11 @@ export default function ContactMe() {
           Let's connect and share our knowledge and experiences.
         </p>
       </div>
-      <form className="contact--form--container" onSubmit={onSubmit}>
-        <div className="container">
+      {isSubmitted ? ( // Render success message if form is submitted
+        <p className="success-message" style={{color:"#198754 ", fontFamily:'sans-serif', fontWeight:'600', fontSize:'32px'}}>Form submitted successfully! ✅ </p>
+      ) : (
+        <form className="contact--form--container" onSubmit={onSubmit}>
+                 <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
             <input
@@ -147,7 +152,8 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn" type="submit">Submit</button>
         </div>
-      </form>
+        </form>
+      )}
     </section>
   );
 }

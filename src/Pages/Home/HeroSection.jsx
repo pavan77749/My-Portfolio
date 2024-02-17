@@ -1,9 +1,9 @@
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
-import Resume from '../../data/postman.pdf'
+import Resume from '../../data/resume.pdf'
 
 export default function HeroSection() {
   const [typeEffect] = useTypewriter({
-    words: ['Frontend','Backend','UI/UX Designer'],
+    words: ['Frontend','Backend'],
     loop:{},
     typeSpeed:100,
     deleteSpeed:40
@@ -14,7 +14,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey,👋 I'm Pavan Gupta</p>
+          <p className="section--title">Hey, I'm Pavan Gupta</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">{typeEffect}</span>{" "}
             <span style={{color:"#ff205f"}}><Cursor/></span>
@@ -22,7 +22,7 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            I'm excited about the endless possibilities in the tech world and love to explore both front-end and back-end technologies.
+            I'm excited about the endless possibilities in the tech world and love to explore both Front-End and Back-End technologies.
           
           </p>
         </div>
