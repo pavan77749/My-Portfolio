@@ -36,11 +36,11 @@
     },
     {
       "id": "2",
-      "src": "https://imgs.search.brave.com/8KZlQBKuj-21vJZyGC_8wGSxLiAOp8-rT93QWauW52w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cHVzaGVuZ2FnZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDIvV29yZFBy/ZXNzLUNvbWluZy1T/b29uLVBhZ2UtUGx1/Z2lucy5wbmc",
-      "title": "Coming Soon",
-      "description": "",
+      "src": "./img/placeholder-img-2.png",
+      "title": "Login-Register-System",
+      "description": "This project comprises a  Register and Login system implemented using React ...",
       "link": "View In Github",
-      "url":""
+      "url":"https://github.com/pavan77749/Login-Register-System/tree/main"
     },
     {
       "id": "3",
