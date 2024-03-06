@@ -162,7 +162,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made 💖 by <b style={{color:"#ff205f"}}>Pavan Gupta</b></p>
+        <p className="footer--content">Made by <b style={{color:"#ff205f"}}>Pavan Gupta</b></p>
         
       </div>
     </footer>
