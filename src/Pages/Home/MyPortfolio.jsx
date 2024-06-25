@@ -37,7 +37,7 @@ export default function MyPortfolio() {
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <p className="text-md">{item.description.substring(0,40)}...</p>
               </div>
             <Link to={item.url} style={{textDecoration:"none"}}>   <p className="text-sm portfolio--link">
                 {item.link}
@@ -62,6 +62,7 @@ export default function MyPortfolio() {
           </div>
         ))}
       </div>
+    
     </section>
   );
 }
