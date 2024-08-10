@@ -1,5 +1,5 @@
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
-import Resume from '../../data/Resume.pdf'
+import Resume from '../../data/resume.pdf'
 
 export default function HeroSection() {
   const [typeEffect] = useTypewriter({
