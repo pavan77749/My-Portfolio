@@ -28,11 +28,11 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-img-1.png",
-      "title": "BlogWebsite",
-      "description": "A BlogWebsite made by Angular Framework and Bootstrap packages.... ",
+      "src": "./img/placeholder-img-1.JPG",
+      "title": "ZOMATO Clone",
+      "description": "This is a full-stack Zomato clone web application built using the MERN stack...",
       "link": "View In Github",
-      "url":"https://github.com/pavan77749/BlogWebsite"
+      "url":"https://github.com/pavan77749/Zomato-newVersion-Clone"
     },
     {
       "id": "2",
@@ -57,6 +57,14 @@
       "description": "Full Stack MERN application of Ecommerce shop ",
       "link": "View In Github",
       "url":"https://github.com/pavan77749/ecommerce"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-img-5.JPG",
+      "title": "IMDb Clone",
+      "description": "This website is made in next.js using movie api.... ",
+      "link": "View In Github",
+      "url":"https://github.com/pavan77749/IMDb-nextjs-project"
     }
   ]
 }
